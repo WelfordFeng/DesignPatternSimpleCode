@@ -24,5 +24,8 @@ package proxy;
  * @version: 1.0
  * @create: 2019/7/25 13:01
  */
-public class RealSubject {
+public class RealSubject implements Subject {
+    public void operation() {
+        System.out.println("执行Operation方法");
+    }
 }

@@ -25,4 +25,5 @@ package proxy;
  * @create: 2019/7/25 13:01
  */
 public interface Subject {
+    void operation();
 }
